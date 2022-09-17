@@ -5,7 +5,7 @@ provider "azurerm" {
 #   client_id       = "399f8994-8c78-4d94-8074-a4919cb62e82"
 #   client_secret   = "KuI8Q~xlQE3Zb6mJUVmTrNqtaOwDv-2.4nT91aON"
 #   tenant_id       = "24c249db-c3ad-4ccc-a130-a302d59ab12a"
-  
+
 }
 
 # env declaration in power shell
