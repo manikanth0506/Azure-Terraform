@@ -26,3 +26,12 @@ resource "azurerm_dns_a_record" "Testserver3" {
   ttl                 = 300
   records             = ["10.1.1.102"]
 }
+
+resource "azurerm_dns_a_record" "Testserver4" {
+  name                = "Testserver4"
+  zone_name           = azurerm_dns_zone.Devopscom.name
+  resource_group_name = azurerm_resource_group.DevopsRG.name
+  ttl                 = 300
+  records             = ["10.1.1.103"]
+}
+
